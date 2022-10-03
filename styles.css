@@ -1,0 +1,95 @@
+.main-brand {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Sofia", sans-serif;
+    margin: 60px 0; /* margin-top: 60px; margin-bottom: 60px; */
+}
+
+.story-img {
+    width: 100%;  /*sirina slike*/
+}
+
+.story-title {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story-text {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.quarter {
+    width: 25%; /* ili-> flex:1; */
+}
+
+.quarter2 {
+    width: 24.6%; /* ili-> flex:1; */
+}
+
+.half {
+    width: 50%; /* pa flex:2; */
+}
+
+.three-quarter{
+    width:75%; /* pa flex:3; */
+}
+
+.nav-list{
+    display: flex ;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none; /*za uklanjanje bulleta*/
+}
+
+.nav-item{
+    width: 98%;
+    flex:1; /*flex 1-svaki item uzima max prostora,u ovom slucaju svak uzima po 20% jer ih je 5*/
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+    color:#555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item a{
+    text-decoration: none; /*linkovi su po defaultu podcrtani,ovom linijom uklanjamo podcrtavanje*/
+    color: #555;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.nav-item:nth-child(1){
+    background-color: #ffeaa7;
+}
+.nav-item:nth-child(2){
+    background-color: #81ecec;
+}
+.nav-item:nth-child(3){
+    background-color: #55efc4;
+}
+.nav-item:nth-child(4){
+    background-color: #74b9ff;
+}
+.nav-item:nth-child(5){
+    background-color: #a29bfe;
+}
