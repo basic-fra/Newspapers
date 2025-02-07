@@ -11,6 +11,7 @@ newspaper layout.
 
 ---
 ## **Screenshot**
-![image](https://github.com/user-attachments/assets/04ab2465-b90f-486e-8212-7536afe61f27)
-![image](https://github.com/user-attachments/assets/7b8359cf-75d8-443a-a56e-ecb68c4f78af)
+![image](https://github.com/user-attachments/assets/76e0ff4b-e906-434d-aa1a-f5455c851a6b)
+![image](https://github.com/user-attachments/assets/c82e9e8f-868e-43ed-9fe5-bc0ac45bd632)
+
 
